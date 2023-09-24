@@ -1,0 +1,17 @@
+= Synopsis
+A simple plugin for the DataGrip IDE. Its main purpose is to create Flyway migrations.
+
+= Installation
+tbd
+
+= Hacking / Development
+== Test it
+* open the project in IntelliJ
+* choose Run | Run Plugin
+* click Tools > Popup Action Demo
+This will open a file chooser dialog (that currently does nothing, sorry).
+
+= Links
+== IntelliJ Plugin Development Tutorials
+* https://plugins.jetbrains.com/docs/intellij/working-with-custom-actions.html#registering-an-action-with-the-new-action-form[Custom Actions]
+* https://plugins.jetbrains.com/docs/intellij/enabling-internal.html[Enabling internal mode]

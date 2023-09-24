@@ -27,4 +27,25 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
+    <!-- <action id="de.qwhon.datagripplugintutorial.PopupDialogAction"
+              class="de.qwhon.datagripplugintutorial.PopupDialogAction"
+              text="Action Basics Plugin: Popup Dialog Action"
+              description="Popup dialog example"
+              icon="SdkIcons.Sdk_default_icon">-->
+    <actions>
+        <action id="org.xanthidae.xanthidaejb.FlywayVersionedMigrationAction"
+                class="org.xanthidae.xanthidaejb.FlywayVersionedMigrationAction"
+                text="Flyway: versioned migration"
+                description="Creates a versioned migration for Flyway">
+            <override-text place="MainMenu" text="Xanthidae-JB: versioned migration"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <keyboard-shortcut
+                    keymap="$default"
+                    first-keystroke="control alt A"
+                    second-keystroke="C"/>
+            <mouse-shortcut
+                    keymap="$default"
+                    keystroke="control button3 doubleClick"/>
+        </action>
+    </actions>
 </idea-plugin>
