@@ -1,10 +1,19 @@
+[#_synopsis]
 = Synopsis
-A simple plugin for the DataGrip IDE. Its main purpose is to create Flyway migrations.
+
+A simple plugin for the https://www.jetbrains.com/datagrip/[DataGrip] IDE. Its main purpose will be the creation of migration for https://documentation.red-gate.com/fd[Flyway] .
+
 
 = Installation
 tbd
 
+
 = Hacking / Development
+== Prerequisites
+* https://www.jetbrains.com/idea/[IntelliJ] . The community edition is perfectly fine.
+* JDK 17
+* Gradle
+
 == Test it
 * open the project in IntelliJ
 * choose Run | Run Plugin
