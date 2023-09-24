@@ -8,8 +8,8 @@ tbd
 == Test it
 * open the project in IntelliJ
 * choose Run | Run Plugin
-* click Tools > Popup Action Demo
-This will open a file chooser dialog (that currently does nothing, sorry).
+* click Tools > Xanthidae-JB: Versioned migration
+This will open a file chooser dialog (that dialog doesn't do anything useful so far, sorry).
 
 = Links
 == IntelliJ Plugin Development Tutorials
